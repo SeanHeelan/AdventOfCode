@@ -13,5 +13,5 @@ function calculate_fuel(f)
     total
 end
 
-r = open(calculate_fuel, "/home/sean/source/AdventOfCode/1/input.txt")
+r = open(calculate_fuel, "input.txt")
 @printf("%f\n", r)
