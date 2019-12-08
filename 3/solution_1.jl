@@ -113,6 +113,7 @@ function manhattan_distance(a, b)
     abs(a[1] - b[1]) + abs(a[2] - b[2])
 end
 
+"""Find the closest point to the origin"""
 function find_closest_point_to_origin(points)
     origin = (0, 0)
     shortest = manhattan_distance(origin, intersection_points[1])
